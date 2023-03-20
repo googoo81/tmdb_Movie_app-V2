@@ -2,6 +2,6 @@ import React from "react";
 
 export default function Home () {
     return (
-        <div>Tv</div>
+        <div className="page-container" style={{fontSize: '32px'}}>Tv</div>
     )
 }

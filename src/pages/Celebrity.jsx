@@ -2,6 +2,6 @@ import React from "react";
 
 export default function Home () {
     return (
-        <div>Celeblrity</div>
+        <div className="page-container" style={{fontSize: '32px'}}>Celeblrity</div>
     )
 }
