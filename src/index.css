@@ -10,6 +10,8 @@
 /* header 시작 */
 .header-container {
     background-color: rgba(3, 37, 65, 1);
+    position: fixed;
+    width: 100%;
 }
 
 .header-wrap {
@@ -52,9 +54,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .movie-container {
+    margin-top: 64px;
+}
+
+.movie-container {
+    cursor: pointer;
     width: 250px;
     margin: 16px;
     background-color: #373b69;
